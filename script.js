@@ -36,11 +36,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Add copy icon
         const copyIcon = document.createElement("i");
-        copyIcon.className = "icon fas fa-copy"; // FontAwesome copy icon
+        copyIcon.className = "icon fas fa-copy mode-button"; // FontAwesome copy icon
 
         // Add share icon
         const shareIcon = document.createElement("i");
-        shareIcon.className = "icon fas fa-share"; // FontAwesome share icon
+        shareIcon.className = "icon fas fa-share mode-button"; // FontAwesome share icon
 
         // Append icons to the container
         iconsContainer.appendChild(copyIcon);
